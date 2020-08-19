@@ -290,9 +290,8 @@ public class SpringApplication {
 	}
 
 	/**
-	 * Run the Spring application, creating and refreshing a new
-	 * {@link ApplicationContext}.
-	 * @param args the application arguments (usually passed from a Java main method)
+	 * 运行Spring应用程序，创建并刷新一个新的{@link ApplicationContext}.
+	 * @param args 应用程序参数(通常从Java主方法传递)
 	 * @return a running {@link ApplicationContext}
 	 */
 	public ConfigurableApplicationContext run(String... args) {
